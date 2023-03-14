@@ -1,0 +1,12 @@
+n=int(input())
+x,count=0,0
+add,i=0,0
+while(x<=n):
+    add+=1
+    i+=add
+    x+=i
+    if(x!=1):
+        if(x>n):
+            break
+    count+=1
+print(count)

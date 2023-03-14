@@ -1,0 +1,19 @@
+x,y=map(int,input().split())
+m=max(x,y)
+a=(6-m)+1
+if(a!=6):
+    if(a==0):
+        print("0/1")
+    elif(a==1):
+        print("1/6")
+    elif(a==2):
+        print("1/3")
+    elif(a==4):
+        print("2/3")
+    elif(a==5):
+        print("5/6")
+    else:
+        print("1/2")
+else:
+    print("1/1")
+
